@@ -22,15 +22,16 @@
 
 - 建置本地端的開發環境
 - 基本語法練習2
-- 資料收集如何收集
+- 資料如何收集
 
 ----
 ## W03
 
+- csv資訊讀取應用
+- 資料視覺化: matplotlib
+
 - 資料庫應用(以MySQL、MariaDB為例)
 - 實作：收集資料到資料庫
-- 資料解析
-- 資料視覺化
 
 ----
 ## W04
@@ -48,5 +49,8 @@
 ## W06
 
 - 網頁前端設計介紹
-- 網頁前後端整合應用：Python restful API設計網頁前後端整合應用 (1)Python網頁後端設計 (2)restful API設計 (3)前後端分離設計手法 (4)PWA: android, iOS APP的設計開法速成
-
+- 網頁前後端整合應用：Python restful API設計網頁前後端整合應用 
+    - (1)Python網頁後端設計 
+    - (2)restful API設計 
+    - (3)前後端分離設計手法 
+    - (4)PWA: android, iOS APP的設計開法速成
