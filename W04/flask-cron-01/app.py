@@ -67,7 +67,7 @@ def map_w01_6():
 #####################
 def job_fun1():
     print('cron fun1: awake myself')
-    url = 'https://malo-flask-map.herokuapp.com/'
+    url = 'https://malo-cron2.herokuapp.com/'
     r = requests.get(url)
     print(r)
 
@@ -75,7 +75,7 @@ def start_scheduler():
     scheduler = BackgroundScheduler()
 
     # run every 10 minute
-    scheduler.add_job(job_fun1, 'cron', minute='*/10')
+    scheduler.add_job(job_fun1, 'cron', minute='*/1')
 
     # start the scheduler
     scheduler.start()
@@ -85,4 +85,5 @@ def run_web():
 
 if __name__ == "__main__":
     #app.run()
+    start_scheduler()
     run_web()
