@@ -43,4 +43,5 @@
     # 一直到2021-10-31的早上6:30，執行程式一次
     scheduler.add_job(job_function5, 'cron', hour='6', minute='30', end_date='2021-10-31')
     ```
-    
+
+- W03: 資料庫補充教材
